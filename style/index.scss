@@ -126,8 +126,29 @@ button:hover {
             }
         }
 
-        span {
+        .main-info {
             background-color: $btn-bcg;
+        }
+
+        .timer {
+            margin-bottom: 20px;
+            display: flex;
+            .box-wrapper {
+                display: flex;
+
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 5px;
+
+                    .key {
+                        font-size: 24px;
+                    }
+                    .value {
+                        font-size: 8px;
+                    }
+                }
+            }
         }
     }
 }
@@ -387,10 +408,10 @@ button:hover {
         .features ul {
             justify-content: space-around;
             li {
-            width: 200px;
-            padding: 20px;
+                width: 200px;
+                padding: 20px;
+            }
         }
-    }
         .mentor {
             background: linear-gradient(rgba(247, 245, 245, 0.5), rgba(255, 255, 255, 0.5)),
                 url(../img/people_compute.jpg) no-repeat;
@@ -464,6 +485,10 @@ button:hover {
 
                 .top__title {
                     font-size: 18px;
+                }
+
+                .timer {
+                    justify-content: center;
                 }
             }
 

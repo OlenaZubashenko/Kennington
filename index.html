@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -25,14 +26,55 @@
                 <div class="header__content">
                     <h1 class="top__title">Эффективная стратегия для пассивного дохода</h1>
                     <h3 class="top__description">
-                      <span>
-                         Проверенный рабочий способ пассивного дохода в интернете
-                      </span>  
+                        <span>
+                            Проверенный рабочий способ пассивного дохода в интернете
+                        </span>
                     </h3>
-                    <h3 class="top__info ">Информация в открытом доступе <span> временно </span>, не упусти свой шанс
+                    <h3 class="top__info ">Информация в открытом доступе <span class="main-info"> временно </span>, не упусти свой шанс
                     </h3>
-                    <div class="timer"></div>
-                    <div data-type="countdown" data-id="2163727" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/2163727/my-countdown" title="My countdown">My countdown</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
+                    <div class="timer">
+                       <div class="box-wrapper">
+                            <div class="date box">
+                                <span class="key" id="days"> </span>
+                                <span class="value">DAYS</span>
+                            </div>
+                        </div>
+                        <div class="box-wrapper">
+                            <div class="hour box">
+                                <span class="key" id="hrs"></span>
+                                <span class="value">HOURS</span>
+                            </div>
+                        </div>
+                        <div class="box-wrapper">
+                            <div class="minutes box">
+                                <span class="key" id="min"></span>
+                                <span class="value">MINUTES</span>
+                            </div>
+                        </div>
+                        <div class="box-wrapper hidden-md">
+                            <div class="seconds box">
+                                <span class="key" id="sec"></span>
+                                <span class="value">SECONDS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <input type="hidden" class="deal_left_seconds" data-value="1" value="8888888">
+                    <div class="box-wrapper">
+                        <div class="date box"> <span class="key" id="deal_days_1">00</span> <span
+                                class="value">DAYS</span> </div>
+                    </div>
+                    <div class="box-wrapper">
+                        <div class="hour box"> <span class="key" id="deal_hrs_1">00</span> <span
+                                class="value">HRS</span> </div>
+                    </div>
+                    <div class="box-wrapper">
+                        <div class="minutes box"> <span class="key" id="deal_min_1">00</span> <span
+                                class="value">MINS</span> </div>
+                    </div>
+                    <div class="box-wrapper hidden-md">
+                        <div class="seconds box"> <span class="key" id="deal_sec_1">00</span> <span
+                                class="value">SEC</span> </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -91,7 +133,7 @@
                         </li>
                         <li>
                             <img src="./img/ok.png" class="check">
-                            <p>Lorem  adipisici</p>
+                            <p>Lorem adipisici</p>
                         </li>
                         <li>
                             <img src="./img/ok.png" class="check">
@@ -162,19 +204,22 @@
                 <h1 class="views__title block-title">Отзывы успешных партнёров</h1>
                 <ul>
                     <li>
-                        <p>Lorem, ipsum dolor sit amet consectetur debitis voluptatem inventore quod aspernatur minima? Rem minus qui enim? Minus,
+                        <p>Lorem, ipsum dolor sit amet consectetur debitis voluptatem inventore quod aspernatur minima?
+                            Rem minus qui enim? Minus,
                             provident.</p>
                         <span class="name">Даня Соловьев</span>
                         <span>3 месяца с нами</span>
                     </li>
                     <li>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing inventore quod aspe rnatur quod aspernatur elit. Eveniet repudiandae neque debitis
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing inventore quod aspe rnatur quod
+                            aspernatur elit. Eveniet repudiandae neque debitis
                             voluptatem minima? provident.</p>
                         <span class="name">Анна Банина</span>
                         <span>23 месяца с нами</span>
                     </li>
                     <li>
-                        <p>Lorem, ipsum dolor sunt inventore quod aspernatur  inventore quod aspernaturofficia optio, debitis voluptatem minima?
+                        <p>Lorem, ipsum dolor sunt inventore quod aspernatur inventore quod aspernaturofficia optio,
+                            debitis voluptatem minima?
                             Rem minus qui enim? Minus, provident.</p>
                         <span class="name">Игорь Соловьев</span>
                         <span>12 месяцев с нами</span>
@@ -200,5 +245,6 @@
     </div>
 
 </body>
+<script src="./index.js"></script>
 
 </html>

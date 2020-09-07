@@ -123,8 +123,40 @@ button:hover {
   line-height: 14px;
 }
 
-.header__content span {
+.header__content .main-info {
   background-color: #f7750a;
+}
+
+.header__content .timer {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__content .timer .box-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__content .timer .box-wrapper .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px;
+}
+
+.header__content .timer .box-wrapper .box .key {
+  font-size: 24px;
+}
+
+.header__content .timer .box-wrapper .box .value {
+  font-size: 8px;
 }
 
 .content {
@@ -520,6 +552,11 @@ button:hover {
   }
   .header-wrapper .header .header__content .top__title {
     font-size: 18px;
+  }
+  .header-wrapper .header .header__content .timer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .header-wrapper .header .form__btn {
     text-align: center;
